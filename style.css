@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 100%;
+  min-height: 500px;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  border-radius: 20px;
+  width: 100%;
+  height: 150px;
+  background-color: #282a33;
+}
+.header__nav {
+  flex: 1;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header__nav li {
+  list-style: none;
+}
+.header__nav a {
+  color: wheat;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+.header__logo {
+  width: 10%;
+  height: 100%;
+}
+.header__logo img {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  flex: 1;
+}
+.main__h1 {
+  font-size: 50px;
+  margin: 0;
+  height: 150px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: radial-gradient(circle, #282a33 40%, white 90%);
+}
+.video {
+  width: 100%;
+  height: 100%;
+  background-image: url(images/poster.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.video__frame {
+  border-radius: 20px;
+}
+.main-h1 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+.main-gallery {
+  background-color: #282a33;
+}
+.grid {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.grid-item {
+  width: 15%;
+  height: 150px;
+}
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+}
+.equip-h1 {
+  color: white;
+}
+.main-equipment {
+  background-color: #282a33;
+  border-radius: 20px;
+}
+.header {
+  border-bottom: 2px solid gray;
+}
+.armor {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+.full-body {
+  width: 30%;
+  height: 100%;
+}
+.full-body img {
+  width: 100%;
+  height: 100%;
+}
+.full-equipment {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.armor-item {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.armor-item span {
+  color: white;
+  font-size: 30px;
+}
+.armor-item1 {
+  background-image: url(images/AR-15.50.webp);
+}
+
+.armor-item2 {
+  background-image: url(images/M4.webp);
+}
+.armor-item3 {
+  background-image: url(images/Stun_Grenade.webp);
+}
+.armor-item4 {
+  background-image: url(images/Claymore.webp);
+}
+.armor-item5 {
+  background-image: url(images/1911_TACOPS.webp);
+}
+.armor-item6 {
+  background-image: url(images/Breaching-Torch.webp);
+}
+.main-biography {
+  width: 100%;
+  background-color: #282a33;
+  border-radius: 20px;
+}
+.portrait {
+  width: 70%;
+  height: 700px;
+  border-radius: 20px;
+  background-image: url(images/biography-portrait.webp);
+  background-position: 50% 10%;
+  margin: 0 auto;
+}
+.article-bio {
+  width: 90%;
+  margin: 30px auto;
+
+  font-size: 20px;
+  color: white;
+}
+.main-feedback {
+  background-color: #282a33;
+  height: 100vh;
+}
+.rainbow-dude {
+  background-image: url(images/feedback-poster.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  width: 60%;
+  height: 65vh;
+  display: flex;
+  justify-content: space-between;
+}
+.rainbow-dude span {
+  font-size: 25px;
+  padding: 20px;
+  color: white;
+}
